@@ -1,3 +1,5 @@
+CREATE DATABASE data_test
+
 CREATE TABLE Clients (
     Client_ID INT PRIMARY KEY,
     First_name VARCHAR(50) CHECK (First_name !=''),
